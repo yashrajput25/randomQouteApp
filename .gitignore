@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+/.idea
+app/build.gradle.kts
+app/build.gradle.kts
+gradle/libs.versions.toml
+gradle/libs.versions.toml

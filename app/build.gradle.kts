@@ -49,6 +49,11 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.lifecycle.runtime.ktx.v261) // ViewModel + Coroutines
+    implementation(libs.androidx.lifecycle.viewmodel.compose) // ViewModel with Jetpack Compose
+    implementation(libs.retrofit) // Retrofit
+    implementation(libs.converter.moshi) // Moshi JSON Converter
+    implementation(libs.moshi.kotlin) // Moshi Library
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
